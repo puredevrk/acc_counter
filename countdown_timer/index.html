@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AUTOMATED CRICKET COMMENTARY PROJECT VIVA ALERT</title>
+  <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+  <h1>AUTOMATED CRICKET COMMENTARY PROJECT VIVA ALERT</h1>
+
+  <h2>Countdown to VIVA TIME: (TARGET TIME):</h2>
+  <p id="timer"></p>
+
+  <h2>Tasks:</h2>
+  <ul class="task-list" id="taskList">
+    <li><button class="complete" onclick="markComplete(this)">Complete</button> Prepare PPT  <button class="reject" onclick="markReject(this)">Reject</button></li>
+    <li><button class="complete" onclick="markComplete(this)">Complete</button> Beautify the PPT  <button class="reject" onclick="markReject(this)">Reject</button></li>
+    <li> <button class="complete" onclick="markComplete(this)">Complete</button> Make ready the codes <button class="reject" onclick="markReject(this)">Reject</button></li>
+    <li><button class="complete" onclick="markComplete(this)">Complete</button> Make ready yourself  <button class="reject" onclick="markReject(this)">Reject</button></li>
+    <li> <button class="complete" onclick="markComplete(this)">Complete</button> Spiral bind and print the synopsis <button class="reject" onclick="markReject(this)">Reject</button></li>
+    <li> <button class="complete" onclick="markComplete(this)">Complete</button> Final check synopsis <button class="reject" onclick="markReject(this)">Reject</button></li>
+    <li> <button class="complete" onclick="markComplete(this)">Complete</button> Correct the synopsis <button class="reject" onclick="markReject(this)">Reject</button></li>
+  </ul>
+
+  <h2>Add New Task:</h2>
+  <input type="text" id="addTaskInput" placeholder="Enter new task">
+  <button id="addTaskButton">Add Task</button>
+
+  <script src="script/script.js"></script>
+</body>
+</html>
